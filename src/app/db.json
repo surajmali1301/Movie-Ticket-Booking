@@ -1,0 +1,20 @@
+{
+  "register": [
+    {
+      "id": "e97d",
+      "username": "suraj",
+      "email": "surajmali@gmail.com",
+      "password": "sm@123",
+      "confirmPassword": "sm@123",
+      "role": "user"
+    },
+    {
+      "id": "c1ba",
+      "username": "sanket",
+      "email": "sanket@gmail.com",
+      "password": "smm@123",
+      "confirmPassword": "smm@123",
+      "role": "admin"
+    }
+  ]
+}

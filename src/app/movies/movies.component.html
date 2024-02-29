@@ -1,0 +1,11 @@
+<h5>Recommended Movies</h5>
+<div class="row">
+  @for(m of movieList;track m.id){
+  <div (click)="toMovieDetails(m.id)" class="card" style="width: 18rem;">
+    <img [src]="m.posters" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{m.title}}</h5>
+    </div>
+  </div>
+  }
+</div>

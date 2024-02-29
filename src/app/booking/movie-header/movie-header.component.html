@@ -1,0 +1,58 @@
+<br>
+<!-- <div  class="card" style="width: 18rem;">
+    <img [src]="movieList?.posters"  class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{movieList?.title}}</h5>
+    </div>
+  </div>
+  <div class="description">
+  <h5>Description:</h5>
+  <span>{{movieList?.description}}</span>
+  </div>
+  <div class="genre">
+    <h5>Genre:</h5>
+    <span>{{movieList?.genre}}</span>
+  </div>
+  <div class="rating">
+    <h5>Rating</h5>
+    <span>{{movieList?.rating}}</span>
+  </div>
+  <div class="duration">
+    <h5>Duration</h5>
+    <span>{{movieList?.duration}}</span>
+  </div>
+  <button class="btn btn-danger" type="submit" (click)="toMBooking()">Book Ticket</button> -->
+<!-- movie-carousel.component.html -->
+<div class="title">
+  <h1>{{movieList?.title}}</h1>
+</div>
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img [src]="movieList?.posters" class="d-block w-10" alt="...">
+    </div>
+  </div>
+  <!-- <h5>{{ movieList?.title }}</h5>
+    <p>Description: {{ movieList?.description }}</p>
+    <p>Genre: {{ movieList?.genre }}</p>
+    <p>Rating: {{ movieList?.rating }}</p>
+    <p>Duration: {{ movieList?.duration }}</p> -->
+</div>
+<br>
+<div class="description">
+  <h5>Description:</h5>
+  <span>{{movieList?.description}}</span>
+</div>
+<div class="genre">
+  <h5>Genre:</h5>
+  <span>{{movieList?.genre}}</span>
+</div>
+<div class="rating">
+  <h5>Rating</h5>
+  <span>{{movieList?.rating}}</span>
+</div>
+<div class="duration">
+  <h5>Duration</h5>
+  <span>{{movieList?.duration}}</span>
+</div>
+<button class="btn btn-danger" type="submit" (click)="toTheatre()">Book Ticket</button>

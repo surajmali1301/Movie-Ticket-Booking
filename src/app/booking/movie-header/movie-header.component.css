@@ -1,0 +1,32 @@
+.description{
+  position: fixed;
+  left: 27%;
+  bottom: 550px;
+}
+.genre{
+  position: fixed;
+  left: 27%;
+  bottom: 460px;
+}
+.rating{
+  position: fixed;
+  left: 27%;
+  bottom: 370px;
+}
+.duration{
+  position: fixed;
+  left: 27%;
+  bottom: 280px;
+}
+.title{
+  position: fixed;
+  left: 27%;
+}
+img{
+  position: fixed;
+}
+.btn{
+  position: fixed;
+  left: 28%;
+  top: 500px;
+}
